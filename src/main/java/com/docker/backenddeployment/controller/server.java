@@ -2,11 +2,9 @@ package com.docker.backenddeployment.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping
 public class server {
     @GetMapping("server")
     public String server() {
